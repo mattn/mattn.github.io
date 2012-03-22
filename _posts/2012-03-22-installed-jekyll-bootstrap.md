@@ -37,5 +37,4 @@ tagline: jekyll
 [githubとjekyllとoctopressで作る簡単でモダンなブログ](http://mattn.kaoriya.net/software/lang/ruby/20111017205717.htm)
 
 何も触らなくていいのが便利だし、[テーマブラウザ](http://themes.jekyllbootstrap.com/)とかカッコ良すぎる。
-
-
+ちなみに、分かってる人は分かってるだろうけど、octopressはmarkdownを静的にhtmlを生成してアップロードするのに対してjekyllはmarkdownのままアップロードしてgithubに処理させてるので、jekyllプラグインはgithub上で動こうとする。つまりローカルでしか動かないという事。
