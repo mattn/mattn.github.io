@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : ギッハブる日記
+title : mattn's blog
 tagline: ギッハブで作る開発日誌
 author :
   name : Yasuhiro Matsumoto
