@@ -13,3 +13,6 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
+
+feed:
+    title: Screw It!

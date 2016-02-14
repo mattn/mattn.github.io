@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>{{ page.title }} - {{ site.title }}</title>
-	<link rel="stylesheet" href="/assets/css/site.css" type="text/css" />
-	<link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Skranji" type="text/css" />
-    {% feed_meta %}
+  <meta charset="UTF-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/site.css" type="text/css" />
+  <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Skranji" type="text/css" />
+  {% feed_meta %}
 <script>
 $(function() {
   $('pre>code').each(function() { $(this.parentNode).addClass('prettyprint') })
@@ -15,10 +15,10 @@ $(function() {
 </script>
 </head>
 <body>
-	<div id="contener">
-	<h1 class="big">{{ site.title }}</h1>
+  <div id="contener">
+  <h1 class="big">{{ site.title }}</h1>
 
-	{{ content }}
-	</div>
+  {{ content }}
+  </div>
 </body>
 </html>
