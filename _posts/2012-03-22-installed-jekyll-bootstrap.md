@@ -5,7 +5,7 @@ tagline: jekyll
 ---
 自前で作ってたけど、jekyll-bootstrapがかっこよかったので入れてみた。
 
-[Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
+[Blogging with Jekyll Tutorial \| Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 
 ```
 $ git clone https://github.com/plusjade/jekyll-bootstrap.git mattn.github.io
