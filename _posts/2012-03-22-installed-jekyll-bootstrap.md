@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: jekyll bootstrap を GitHub ページにインストールしてみた
 tagline: jekyll
 ---
