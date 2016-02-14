@@ -3,8 +3,6 @@ layout: post
 title: jekyll bootstrap を GitHub ページにインストールしてみた。
 tagline: jekyll
 ---
-{% include JB/setup %}
-
 自前で作ってたけど、jekyll-bootstrapがかっこよかったので入れてみた。
 
 [Blogging with Jekyll Tutorial \| Jekyll-Bootstrap](http://jekyllbootstrap.com/)
