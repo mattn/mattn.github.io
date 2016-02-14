@@ -6,8 +6,10 @@ encoding: utf-8
 #baseurl:     http://mattn.github.io
 title:        Screw It!
 
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-
 exclude: ["scripts"]
+
+gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed

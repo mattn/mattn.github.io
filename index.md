@@ -21,13 +21,6 @@ permalink: /
 <div class="links">
 
   <div class="link-block">
-    <h3>最近作った物とか</h3>
-    {% for repository in site.github.public_repositories %}
-      * [{{ repository.name }}]({{ repository.html_url }})
-    {% endfor %}
-  </div>
-
-  <div class="link-block">
     <h3>連絡先など</h3>
     <a href="https://github.com/mattn/">github</a><br />
     <a href="https://twitter.com/mattn_jp/">twitter</a><br />
