@@ -1,0 +1,23 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.baseurl | xml_escape }}</link>
+    <atom:link rel="self" type="application/rss+xml" href="{{ page.url | xml_escape}}" />
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S +0900" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S +0900" }}</lastBuildDate>
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <link>{{ post.url | xml_escape }}</link>
+      <guid isPermaLink="false">tag:mattn,{{ post.date | date: "%Y/%m/%d" }}:{{ post.url | xml_escape }},rev:1</guid>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S +0900" }}</pubDate>
+      <author>mattn.jp@gmail.com (mattn)</author>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+  </channel> 
+</rss>

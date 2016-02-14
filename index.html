@@ -1,0 +1,47 @@
+---
+layout: top
+permalink: /
+title: Whisky & Woman
+---
+<span class="big">Whisky &amp; Woman</span><br />
+
+<div class="posts">
+  <h3>記事一覧</h3>
+
+  <ul class="entry-list">
+    {% for post in site.categories.blog %}
+    <li>
+    <div class="entry-head">
+      <span class="entry-label">{{ post.date | date: "%Y/%m/%d" }}&nbsp;&raquo;&nbsp;</span>
+      <span class="entry-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+    </div>
+    <div class="entry-digest">{{ post.content | strip_html | strip_newlines | truncatewords: 10 }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="links">
+
+  <div class="link-block">
+    <h3>最近作った物とか</h3>
+    <a href="https://github.com/mattn/golang_herokubot">golang_herokubot</a><br />
+    <a href="https://github.com/mattn/go-lingrbot">go-lingrbot</a><br />
+    <a href="https://github.com/mattn/osusume-lingrbot">osusume-lingrbot</a><br />
+    <a href="https://github.com/mattn/go-lingr">go-lingr</a><br />
+    <a href="https://github.com/mattn/go-lingrimagebot">go-lingrimagebot</a><br />
+    <a href="https://github.com/mattn/suddendeath-lingrbot">suddendeath-lingrbot</a><br />
+  </div>
+
+  <div class="link-block">
+    <h3>連絡先など</h3>
+    <a href="https://github.com/mattn/">github</a><br />
+    <a href="https://twitter.com/mattn_jp/">twitter</a><br />
+    <a href="http://mattn.kaoriya.net/">blog</a><br />
+  </div>
+
+</div>
+
+<div class="footer">
+  <a class="small" href="mailto:mattn.jp@gmail.com">mattn.jp@gmail.com</a>
+</div>
