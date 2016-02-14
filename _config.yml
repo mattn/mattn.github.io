@@ -4,7 +4,7 @@ encoding: utf-8
 #server:      false
 #server_port: 4000
 #baseurl:     http://mattn.github.io
-title:       Whisky & Woman
+title:        Screw It!
 
 source:      .
 destination: ./_site

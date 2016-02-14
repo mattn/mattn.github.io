@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="/assets/css/site.css" type="text/css" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Skranji" type="text/css" />
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/rss.xml" />
-	<link rel="canonical" href="{{ site.baseurl }}" />
 	<meta charset="UTF-8">
-	<title>{{ page.title }}</title>
-<style type="text/css">
-.big {
-	font-family: 'Skranji', cursive;
-	font-size: 70px;
-}
-.small {
-	font-family: 'Skranji', cursive;
-	font-size: 25px;
-}
-</style>
+	<title>{{ site.title }}</title>
+	<link rel="stylesheet" href="/assets/css/site.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/gcp/prettify.css" type="text/css" />
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Skranji" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/rss.xml" />
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="/assets/gcp/prettify.js"></script>
 </head>
 <body>
 	<div id="content">
+	<h1 class="big">{{ site.title }}</h1>
+
 	{{ content }}
 	</div>
 </body>

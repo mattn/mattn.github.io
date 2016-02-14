@@ -134,4 +134,14 @@ div > pre {
   overflow: auto;
 }
 
+.big {
+	font-family: 'Skranji', cursive;
+	font-size: 70px;
+	margin: 0px;
+}
+.small {
+	font-family: 'Skranji', cursive;
+	font-size: 25px;
+}
+
 /* vim:set ts=8 sts=2 sw=2 noet: */
