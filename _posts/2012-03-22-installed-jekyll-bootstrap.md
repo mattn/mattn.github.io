@@ -19,7 +19,7 @@ tagline: jekyll
 記事書いて
 
     $ vim _post/2012-03-22-installed-jekyll-bootstrap.md
-	$ git add !$ && git commit -m "add"
+    $ git add !$ && git commit -m "add"
 
 投稿
 
