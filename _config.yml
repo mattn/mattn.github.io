@@ -3,7 +3,7 @@ encoding: utf-8
 #auto:        false
 #server:      false
 #server_port: 4000
-#baseurl:     http://mattn.tonic-water.com
+#baseurl:     http://mattn.github.io
 title:       Whisky & Woman
 
 source:      .
