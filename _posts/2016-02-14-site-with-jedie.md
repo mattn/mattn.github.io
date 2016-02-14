@@ -14,4 +14,4 @@ $ git commit -a
 $ git push origin master
 ```
 
-jedie 便利。
+jedie 便利。 :+1:
