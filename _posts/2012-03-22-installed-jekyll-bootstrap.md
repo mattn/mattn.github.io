@@ -1,6 +1,6 @@
 ---
 layout: page
-title: jekyll bootstrapをgithubページにインストールしてみた
+title: jekyll bootstrap を GitHub ページにインストールしてみた
 tagline: jekyll
 ---
 自前で作ってたけど、jekyll-bootstrapがかっこよかったので入れてみた。
