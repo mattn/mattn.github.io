@@ -59,10 +59,6 @@ li > p {
   margin-top: 0.2em;
 }
 
-pre {
-  font-family: monospace;
-}
-
 a, a:link {
   color: #6699cc;
 }
@@ -85,10 +81,6 @@ pre>code {
 
 pre {
   padding: 0.5em;
-}
-
-pre<code {
-  background: blue;
 }
 
 #contener {
@@ -130,10 +122,6 @@ br.clear {
   padding: 0.5em;
 }
 
-div > pre {
-  overflow: auto;
-}
-
 .big {
 	font-family: 'Skranji', cursive;
 	font-size: 70px;
@@ -142,6 +130,36 @@ div > pre {
 .small {
 	font-family: 'Skranji', cursive;
 	font-size: 25px;
+}
+
+pre {
+  border: solid 1px #ddd;
+  background: #fff;
+  padding: 0;
+  line-height: 23px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+}
+
+.highlight td {
+    padding: 8px 15px;
+}
+
+.gl { 
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  color: #999;
+  
+  /* Stop line numbers being visually selected */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* vim:set ts=8 sts=2 sw=2 noet: */
