@@ -8,9 +8,9 @@ tagline: jekyll
 [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 
 ```
-$ git clone https://github.com/plusjade/jekyll-bootstrap.git mattn.github.com
-$ cd mattn.github.com
-$ git remote set-url origin git@github.com:mattn/mattn.github.com.git
+$ git clone https://github.com/plusjade/jekyll-bootstrap.git mattn.github.io
+$ cd mattn.github.io
+$ git remote set-url origin git@github.com:mattn/mattn.github.io.git
 $ git push origin master
 ```
 
