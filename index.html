@@ -22,12 +22,9 @@ permalink: /
 
   <div class="link-block">
     <h3>最近作った物とか</h3>
-    <a href="https://github.com/mattn/golang_herokubot">golang_herokubot</a><br />
-    <a href="https://github.com/mattn/go-lingrbot">go-lingrbot</a><br />
-    <a href="https://github.com/mattn/osusume-lingrbot">osusume-lingrbot</a><br />
-    <a href="https://github.com/mattn/go-lingr">go-lingr</a><br />
-    <a href="https://github.com/mattn/go-lingrimagebot">go-lingrimagebot</a><br />
-    <a href="https://github.com/mattn/suddendeath-lingrbot">suddendeath-lingrbot</a><br />
+    {% for repository in site.github.public_repositories %}
+      * [{{ repository.name }}]({{ repository.html_url }})
+    {% endfor %}
   </div>
 
   <div class="link-block">
