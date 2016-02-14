@@ -6,7 +6,7 @@ jekyll-bootstrap を使ってたのだけど新規投稿が反映されない問
 
 使ったのはお手製の jekyll clone、[jedie](https://github.com/mattn/jedie)
 
-```
+```shell
 $ jedie new .
 $ vim _posts/2016-02-15-rebuild-site-with-jedie.md
 $ git add .
