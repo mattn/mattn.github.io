@@ -7,29 +7,38 @@ tagline: jekyll
 
 [Blogging with Jekyll Tutorial | Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 
-
-    $ git clone https://github.com/plusjade/jekyll-bootstrap.git mattn.github.com
-    $ cd mattn.github.com
-    $ git remote set-url origin git@github.com:mattn/mattn.github.com.git
-    $ git push origin master
+```
+$ git clone https://github.com/plusjade/jekyll-bootstrap.git mattn.github.com
+$ cd mattn.github.com
+$ git remote set-url origin git@github.com:mattn/mattn.github.com.git
+$ git push origin master
+```
 
 テーマも変えた
 
-    $ rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
+```
+$ rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
+```
 
 記事書いて
 
-    $ vim _post/2012-03-22-installed-jekyll-bootstrap.md
-    $ git add !$ && git commit -m "add"
+```
+$ vim _posts/2012-03-22-installed-jekyll-bootstrap.md
+$ git add !$ && git commit -m "add"
+```
 
 投稿
 
-    $ git push origin master
+```
+$ git push origin master
+```
 
 簡単。ローカルで確認したいなら
 
-    $ gem install jekyll
-    $ jekyll --server --auto
+```
+$ gem install jekyll
+$ jekyll --server --auto
+```
 
 この辺は前に書いたのでそっちを見てね。
 
