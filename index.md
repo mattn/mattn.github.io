@@ -22,9 +22,9 @@ permalink: /
 
   <div class="link-block">
     <h3>連絡先など</h3>
-    <a href="https://github.com/mattn/">github</a><br />
-    <a href="https://twitter.com/mattn_jp/">twitter</a><br />
-    <a href="http://mattn.kaoriya.net/">blog</a><br />
+    <a href="https://github.com/mattn/">GitHub</a><br />
+    <a href="https://twitter.com/mattn_jp/">Twitter</a><br />
+    <a href="http://mattn.kaoriya.net/">Blog</a><br />
   </div>
 
 </div>
