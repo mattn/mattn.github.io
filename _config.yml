@@ -16,3 +16,5 @@ gems:
 
 feed:
     title: Screw It!
+
+timezone: Asia/Tokyo
