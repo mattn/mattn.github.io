@@ -6,6 +6,7 @@ encoding: utf-8
 #baseurl:     http://mattn.github.io
 title:        Screw It!
 
+include: [".well-known"]
 exclude: ["scripts"]
 
 gems:
